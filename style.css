@@ -1,0 +1,333 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+
+/* Header Starts */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.title{
+    color: #007F61;
+    font-family: Metropolis;
+    font-size: 1.12975rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+.title:before{
+    content: "";
+    display: block;
+    width: 6vw;
+    height: 0.0625rem;
+    background: #C8C8C8;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+.title:after{
+    content: "";
+    display: block;
+    width: 6vw;
+    height: 0.0625rem;
+    background: #C8C8C8;
+    position: absolute;
+    top: 50%;
+    right: 39%;
+}
+
+/* Header Ends */
+
+/* Items Starts */
+
+/* Common CSS */
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 19px;
+}
+
+.item{
+    margin-bottom: 18px;
+    /* background: #F4FBF9; */
+}
+
+
+input[type="radio"] {
+    accent-color: #007F61;
+    cursor: pointer;
+}
+
+
+.item>.price>input{
+    margin-right: 18px;
+}
+
+.item>.price>label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* cursor: pointer; */
+}
+
+.item .price label .content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item .price{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.item .price label .content .main{
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item .price label .content .main span{
+    font-weight: 600;
+    margin-top: 5.77px;
+}
+
+.item .price label .content .disc{
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+select{
+    padding: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  font-size: 14px;
+}
+
+.sizecolor{
+    display: none;
+}
+
+/* Common CSS ENDS */
+
+/* Item 1 */
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    width: 340.734px;
+    padding: 20px;
+    border-radius: 3.615px;
+    border: 1px solid #C8C8C8;
+ 
+}   
+
+
+/* Item 2 */
+.item2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    width: 340.734px;
+    padding: 20px;
+    border-radius: 3.615px;
+    border: 1px solid #C8C8C8;
+    
+}  
+
+
+.content .disc .slash{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+    opacity: 0.3;
+    margin-right: 50px;
+}
+
+ .content .disc{
+    text-align: right;
+    color: #000;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+
+ .content .disc>span{
+    color: #007F61;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/* Item 3 */
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    width: 340.734px;
+    padding: 20px;
+    border-radius: 3.615px;
+    border: 1px solid #C8C8C8;
+    
+}  
+
+
+/* Total Value */
+ P1{
+    font-weight: 500;
+    color: #007F61;
+   }
+
+.total{
+    display: flex;
+    width: 340.734px;
+    padding: 10px 0;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+
+button{
+    width: 341px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    background: #007F61;
+    outline: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.powered{
+    width: 341px;
+    margin-top: 4px;
+    text-align: right;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+      padding: 20px; 
+    }
+  
+    .header {
+      
+      padding: 20px;
+    }
+  
+    .title::before,
+    .title::after {
+      
+      width: 30%;
+    }
+  
+   
+    .item,
+    .item1,
+    .item2,
+    .item3 {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .item1::after {
+      border: 2px solid #8b2161;
+    }
+  
+   
+    .content .disc .slash {
+      margin-right: 0; 
+    }
+  
+    .content .disc,
+    .content .disc>span {
+      font-size: 10px; 
+    }
+  
+    
+    button {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+  
+    .powered {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
